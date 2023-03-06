@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "singularName": "character",
+    "pluralName": "characters",
+    "displayName": "Characters",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dbref": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "type": "string"
+    },
+    "background": {
+      "type": "text"
+    },
+    "end": {
+      "type": "integer"
+    },
+    "inv": {
+      "type": "integer"
+    },
+    "inv_list": {
+      "type": "text"
+    },
+    "end_curr": {
+      "type": "integer"
+    },
+    "inv_curr": {
+      "type": "integer"
+    }
+  }
+}
