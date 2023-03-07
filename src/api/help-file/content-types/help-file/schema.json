@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "newsfiles",
+  "collectionName": "help_files",
   "info": {
-    "singularName": "newsfile",
-    "pluralName": "newsfiles",
-    "displayName": "News File",
+    "singularName": "help-file",
+    "pluralName": "help-files",
+    "displayName": "Help File",
     "description": ""
   },
   "options": {
@@ -16,28 +16,25 @@
       "type": "string",
       "required": true
     },
+    "category": {
+      "type": "string"
+    },
     "body": {
-      "type": "richtext",
+      "type": "string",
       "required": true
     },
     "author": {
       "type": "string"
     },
-    "category": {
+    "editor": {
+      "type": "string"
+    },
+    "related": {
       "type": "string"
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "editor": {
-      "type": "string"
-    },
-    "featured": {
-      "type": "boolean"
-    },
-    "hidden": {
-      "type": "boolean"
     }
   }
 }
